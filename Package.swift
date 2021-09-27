@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/eugenebokhan/metal-compute-tools.git",
-            .branch("quantize-df")
+            .upToNextMajor(from: "1.0.1")
         )
     ],
     targets: [
